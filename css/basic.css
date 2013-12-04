@@ -1,1 +1,154 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------------------------------------------------------*/
+
+#container{  border:2px solid #CDCAB9;
+            background: url(pics/coffey.jpg);
+            background-repeat: no-repeat;
+            background-position: 0 25px;
+            background-color: #51483E;
+            width:900px;
+            float:center;
+            margin:0 auto;
+            
+            
+    
+}
+
+
+#topbar {   text-align:right;
+            font-size:0.8em;
+            background-color: #51483E;
+            padding:3px;
+            font-style:italic;
+            color: #EAE7D2;
+    
+}
+
+
+                            
+        
+#menu {
+        margin-top: 210px;
+        
+}
+
+#menu ul {
+        padding: 8px;
+}
+
+#menu ul li {   display: inline;
+                margin-left: 1px;
+                float:left;
+        
+
+}
+
+#menu ul li a { color: #EAE7D2;
+                border-top: 1px solid #847D73;
+                background-color: #797167;
+                padding: 4px 15px;
+                padding-bottom: 8px;
+                text-decoration:none;
+}
+
+#menu > a {    display:none;
+
+}
+
+
+
+
+#content {  background-color:#EAE7D2 ;
+            float:;
+            padding: 25px;
+    
+}
+
+#maincontent {  float:left;
+                color:#51483E;
+                width: 200px;
+                height: auto;
+                clear:left;
+    
+}
+
+#maincontent h1{  font-size:1.7em;
+
+#img { float:left;
+
+}
+
+#subcontent {   float:right;
+                width: 200px;
+                clear:right;
+                border-left:1px dashed;
+                padding:10px 0px 0px 10px;
+                color:#51483E;
+    
+}
+
+#subcontent h1{   font-size:1.5em;
+
+}
+
+#bottomcontent {    font-style:italic;
+                    clear:both;
+                    color:#51483E;
+                    font-size:0.8em;
+
+}
+
+
+
+
+
+
