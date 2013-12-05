@@ -5,7 +5,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -51,13 +51,13 @@ table {
 /*-------------------------------------------------------------*/
 
 #container{  border:2px solid #CDCAB9;
-            background: url(pics/coffey.jpg);
-            background-repeat: no-repeat;
-            background-position: 0 25px;
-            background-color: #51483E;
-            width:900px;
-            float:center;
-            margin:0 auto;
+                background: url(pics/coffey.jpg) ;
+                background-repeat: no-repeat;
+                background-position: 0 25px;
+                background-color: #51483E;
+                width:600px;
+                float:center;
+                margin:0 auto;
             
             
     
@@ -65,9 +65,9 @@ table {
 
 
 #topbar {   text-align:right;
-            font-size:0.8em;
+            font-size:0.7em;
             background-color: #51483E;
-            padding:3px;
+            padding:2px;
             font-style:italic;
             color: #EAE7D2;
     
@@ -78,6 +78,8 @@ table {
         
 #menu {
         margin-top: 210px;
+        height: 34px;
+        
         
 }
 
@@ -85,19 +87,29 @@ table {
         padding: 8px;
 }
 
-#menu ul li {   display: inline;
+#menu li {   display: inline;
                 margin-left: 1px;
                 float:left;
         
 
 }
 
-#menu ul li a { color: #EAE7D2;
+#menu li a { color: #EAE7D2;
                 border-top: 1px solid #847D73;
                 background-color: #797167;
                 padding: 4px 15px;
                 padding-bottom: 8px;
                 text-decoration:none;
+                
+}
+
+#menu li a:hover {  background-color:#9c9084;
+    
+}
+
+#menu .active a{ color:#51483E;
+                background-color:#EAE7D2;
+    
 }
 
 #menu > a {    display:none;
@@ -108,7 +120,6 @@ table {
 
 
 #content {  background-color:#EAE7D2 ;
-            float:;
             padding: 25px;
     
 }
@@ -118,10 +129,15 @@ table {
                 width: 200px;
                 height: auto;
                 clear:left;
+                font-family:;
     
 }
 
-#maincontent h1{  font-size:1.7em;
+#maincontent h1{    font-size:1.7em;
+                    font-family:;
+
+
+}
 
 #img { float:left;
 
@@ -133,10 +149,13 @@ table {
                 border-left:1px dashed;
                 padding:10px 0px 0px 10px;
                 color:#51483E;
+                font-size:0.9em;
+                font-family:;
     
 }
 
-#subcontent h1{   font-size:1.5em;
+#subcontent h1{   font-size:1.4em;
+                    font-family:;
 
 }
 
@@ -144,6 +163,7 @@ table {
                     clear:both;
                     color:#51483E;
                     font-size:0.8em;
+                    font-family:;
 
 }
 
